@@ -1,62 +1,108 @@
 <!DOCTYPE html>
 <html>
-<title>Sadhu Search</title>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&family=DM+Serif+Display&family=Poppins&display=swap" rel="stylesheet">
-  <style>
-    .gsc-adBlock{display:none !important;}
-    .gsc-search-button-v2{
-      width:48px !important; height:48px !important;
-    }
-    .gsc-input-box{
-      height: 38px !important;
-/*     width: 342px !important; */
-    }
-    .gcsc-find-more-on-google{visibility:hidden;    }
-.gcsc-find-more-on-google-root{visibility:hidden !important;    }
-    .gsc-search-box-tools .gsc-search-box .gsc-input{
-      font-family: 'DM Sans', sans-serif; font-weight: bold;
-    } /* text box */
-    .gsc-control-cse .gs-spelling, .gsc-control-cse .gs-result .gs-title, .gsc-control-cse .gs-result .gs-title * {
-      font-family: 'DM Sans', sans-serif; font-weight: bold; 
-    } /* search result title */
+  <title>Sadhu Search</title>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&family=DM+Serif+Display&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .gsst_a .gscb_a {
+        color: #000000 !important;
+      }
+      .gsc-adBlock {
+        display: none !important;
+      }
+      .gsc-search-button-v2 {
+        width: 48px !important;
+        height: 48px !important;
+      }
+      .gsc-input-box {
+        height: 38px !important;
+        /*     width: 342px !important; */
+      }
+      .gcsc-find-more-on-google {
+        visibility: hidden;
+      }
+      .gcsc-find-more-on-google-root {
+        visibility: hidden !important;
+      }
+      .gsc-search-box-tools .gsc-search-box .gsc-input {
+        font-family: "DM Sans", sans-serif;
+        font-weight: bold;
+      } /* text box */
+      .gsc-control-cse .gs-spelling,
+      .gsc-control-cse .gs-result .gs-title,
+      .gsc-control-cse .gs-result .gs-title * {
+        font-family: "DM Sans", sans-serif;
+        font-weight: bold;
+      } /* search result title */
 
-    .gsc-control-cse, .gsc-control-cse .gsc-table-result{
-      font-size: 16px !important;
-    }
+      .gsc-control-cse,
+      .gsc-control-cse .gsc-table-result {
+        font-size: 16px !important;
+      }
 
-    .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
-    font-size: 20px !important;
-}
-    .gsc-webResult .gsc-result {
-      border-bottom: 1.6px solid #000000 !important;
-      padding: 20px 20px 20px 10px !important;
-    }
-    .gsc-results .gsc-cursor-box{
-      border: 1.6px solid #000000 !important;
-    }
-    .gsc-tabsArea {
-      border: 1.6px solid #000000 !important;
-    }
-  </style>
-</head>
-<body>
-  <br><br>
- <center> <img src="https://raw.githubusercontent.com/lightlessdays/Sadhu-Search/main/icon.jpg" width=50%> </center> 
-<script async src="https://cse.google.com/cse.js?cx=d7dd187d1818f4f24">
-</script>
-<div class="gcse-search"></div>
-  <a href="https://lightlessdays.github.io/Sadhu-Search/stock"><img src="https://raw.githubusercontent.com/lightlessdays/Sadhu-Search/main/home_one.png" width=100%></a><br>
-  <a href="https://lightlessdays.github.io/Sadhu-Search/news"><img src="https://raw.githubusercontent.com/lightlessdays/Sadhu-Search/main/home_four.png" width=100%></a><br>
-  <a href="https://lightlessdays.github.io/Sadhu-Search/story.html"><img src="https://raw.githubusercontent.com/lightlessdays/Sadhu-Search/main/home_three.png" width=100%></a><br>
-  <a href=""><img src="https://raw.githubusercontent.com/lightlessdays/Sadhu-Search/main/home_two.png" width=100%></a><br>
-  <br>
-  <center>
-    <font style="font-family: 'Poppins', sans-serif;"><b>MADE WITH ❤️ IN INDIA</b></font>
-  </center>
-  <br><br>
-</body>
+      .gs-webResult.gs-result a.gs-title:link,
+      .gs-webResult.gs-result a.gs-title:link b,
+      .gs-imageResult a.gs-title:link,
+      .gs-imageResult a.gs-title:link b {
+        font-size: 20px !important;
+      }
+      .gsc-webResult .gsc-result {
+        border-bottom: 1.6px solid #000000 !important;
+        padding: 20px 20px 20px 10px !important;
+      }
+      .gsc-results .gsc-cursor-box {
+        border: 1.6px solid #000000 !important;
+      }
+      .gsc-tabsArea {
+        border: 1.6px solid #000000 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <br /><br />
+    <center>
+      <img
+        src="https://raw.githubusercontent.com/lightlessdays/Sadhu-Search/main/icon.jpg"
+        width="50%"
+      />
+    </center>
+    <script
+      async
+      src="https://cse.google.com/cse.js?cx=d7dd187d1818f4f24"
+    ></script>
+    <div class="gcse-search"></div>
+    <a href="https://lightlessdays.github.io/Sadhu-Search/stock"
+      ><img
+        src="https://raw.githubusercontent.com/lightlessdays/Sadhu-Search/main/home_one.png"
+        width="100%" /></a
+    ><br />
+    <a href="https://lightlessdays.github.io/Sadhu-Search/news"
+      ><img
+        src="https://raw.githubusercontent.com/lightlessdays/Sadhu-Search/main/home_four.png"
+        width="100%" /></a
+    ><br />
+    <a href="https://lightlessdays.github.io/Sadhu-Search/story.html"
+      ><img
+        src="https://raw.githubusercontent.com/lightlessdays/Sadhu-Search/main/home_three.png"
+        width="100%" /></a
+    ><br />
+    <a href=""
+      ><img
+        src="https://raw.githubusercontent.com/lightlessdays/Sadhu-Search/main/home_two.png"
+        width="100%" /></a
+    ><br />
+    <br />
+    <center>
+      <font style="font-family: 'Poppins', sans-serif"
+        ><b>MADE WITH ❤️ IN INDIA</b></font
+      >
+    </center>
+    <br /><br />
+  </body>
 </html>
